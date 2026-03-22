@@ -1,8 +1,40 @@
 {
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "dotenv": "^17.0.0",
-    "knex": "^3.1.0",
-    "pg": "^8.16.3"
-  }
+  "name": "@vspatabuga/porto-ledger",
+  "version": "1.0.0",
+  "description": "VSP Blockchain Ledger Simulation - Immutable Voting System",
+  "type": "module",
+  "main": "simulate.sh",
+  "bin": {
+    "vsp-porto-ledger": "./simulate.sh"
+  },
+  "scripts": {
+    "simulate": "bash simulate.sh",
+    "start": "bash simulate.sh",
+    "stop": "docker compose -p vsp-ledger down",
+    "clean": "docker compose -p vsp-ledger down -v"
+  },
+  "keywords": [
+    "vsp",
+    "blockchain",
+    "voting",
+    "simulation",
+    "sovereign-systems",
+    "ethereum"
+  ],
+  "author": "VSP (Virgiawan Sagarmata Patabuga)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vspatabuga/evote-blockchain-dapps.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "simulate.sh",
+    "docker-compose.yml",
+    "client/",
+    "contracts/",
+    "src/"
+  ]
 }
