@@ -1,5 +1,7 @@
 # ⛓️ evote-blockchain-dapps
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19427226.svg)](https://doi.org/10.5281/zenodo.19427226)
+
 ## 📌 Project Overview
 **evote-blockchain-dapps** is a research-driven decentralized application (dApp) for secure, transparent, and immutable digital voting. It demonstrates the use of **Ethereum-based Smart Contracts** to solve trust issues in administrative processes.
 
