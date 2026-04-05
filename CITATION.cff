@@ -5,12 +5,15 @@ type: software
 authors:
   - family-names: Patabuga
     given-names: Virgiawan Sagarmata
-    affiliation: Patabuga Institute
+    affiliation:
+      - Patabuga Institute
+      - Universitas Muhammadiyah Malang
     orcid: "https://orcid.org/0009-0004-1940-4555"
 abstract: >
   Decentralized voting application using Ethereum smart contracts for secure,
   transparent, and immutable digital voting. Demonstrates blockchain integration
-  with AI governance for audit anchoring.
+  with AI governance for audit anchoring. Developed as part of undergraduate
+  research at Universitas Muhammadiyah Malang.
 license: MIT
 version: "1.0.0"
 date-released: "2026-04-05"
@@ -22,3 +25,4 @@ keywords:
   - smart-contracts
   - e-voting
   - decentralized
+  - undergraduate-research
